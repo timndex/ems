@@ -1,0 +1,33 @@
+{
+    "name": "dominus77/yii2-fontawesome-iconpicker",
+    "description": "Font Awesome Icon Picker plugin for Twitter Bootstrap widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": ["dominus77","yii2","extension","widget","bootstrap","popover","iconpicker","fontawesome"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexey Schevchenko",
+            "email": "ivanovosity@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "fortawesome/font-awesome": "^4.6",
+        "bower-asset/fontawesome-iconpicker": "~1.3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dominus77\\iconpicker\\": ""
+        }
+    }
+}
